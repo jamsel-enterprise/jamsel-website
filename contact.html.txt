@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | JAMSEL ENTERPRISE</title>
+</head>
+<body>
+<header>
+  <h1>JAMSEL ENTERPRISE</h1>
+  <p>📞 +254 721 515 749 | 📍 Kenya</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+  <h2>Contact Us</h2>
+  <p><strong>Phone:</strong> +254 721 515 749</p>
+  <p><strong>Location:</strong> Kenya</p>
+  <p><strong>Order via WhatsApp:</strong></p>
+  <a href="https://wa.me/254721515749" target="_blank">
+    Click here to chat on WhatsApp
+  </a>
+</div>
+
+<footer>
+  <p>&copy; 2026 JAMSEL ENTERPRISE</p>
+</footer>
+</body>
+</html>

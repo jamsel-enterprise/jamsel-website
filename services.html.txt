@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Services | JAMSEL ENTERPRISE</title>
+</head>
+<body>
+<header>
+  <h1>JAMSEL ENTERPRISE</h1>
+  <p>📞 +254 721 515 749 | 📍 Kenya</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+  <h2>Our Services</h2>
+  <ul>
+    <li>Online sale of shoes, bags, and watches</li>
+    <li>WhatsApp-based ordering</li>
+    <li>Nationwide delivery within Kenya</li>
+    <li>Customer support and product consultation</li>
+    <li>Flexible payment options (M-Pesa coming soon)</li>
+  </ul>
+</div>
+
+<footer>
+  <p>&copy; 2026 JAMSEL ENTERPRISE</p>
+</footer>
+</body>
+</html>

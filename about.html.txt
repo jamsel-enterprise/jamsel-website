@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About Us | JAMSEL ENTERPRISE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>JAMSEL ENTERPRISE</h1>
+  <p>📞 +254 721 515 749 | 📍 Kenya</p>
+</header>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+  <h2>About Us</h2>
+  <p>
+    JAMSEL ENTERPRISE is a Kenyan-based online store specializing in
+    quality men and women shoes, stylish handbags, and premium watches.
+    Our mission is to deliver affordable, fashionable, and reliable
+    products to our customers across Kenya.
+  </p>
+  <p>
+    We believe in trust, customer satisfaction, and long-term relationships.
+  </p>
+</div>
+
+<footer>
+  <p>&copy; 2026 JAMSEL ENTERPRISE</p>
+</footer>
+</body>
+</html>
