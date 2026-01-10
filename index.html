@@ -24,10 +24,38 @@
     .cart { position:fixed; bottom:20px; right:20px; background:var(--accent); padding:15px; border-radius:50%; font-weight:bold; }
     footer { background:var(--primary); color:#fff; text-align:center; padding:20px; }
   </style>
+  .logo {
+  width: 160px;
+  height: auto;
+}
+  :root {
+  --primary: #0f172a;   /* Dark blue */
+  --secondary: #f59e0b; /* Gold */
+  --light: #f8fafc;
+}
+body {
+  background: var(--light);
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: var(--primary);
+  color: white;
+}
+
+button, .buy-btn {
+  background: var(--secondary);
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
 </head>
 <body>
 <header>
-  <h1>JAMSEL ENTERPRISE</h1>
+  <img src="logo.png" alt="JAMSEL ENTERPRISE" class="logo">
   <p>Shoes • Bags • Watches</p><p>📞 +254 721 515 749 | 📍 Kenya</p>
 </header>
 <nav>
@@ -72,5 +100,6 @@ function buy(name,price){
 </script>
 </body>
 </html>
+
 
 
