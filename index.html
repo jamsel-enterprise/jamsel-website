@@ -4,15 +4,42 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>JAMSEL ENTERPRISE | Online Store</title>
-  <style>.tagline {
+  <style>header {
+  background: #0f172a;
+  padding: 12px 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #f59e0b;
+}.tagline {
   font-size: 14px;
   color: #e5e7eb;
   margin-top: 5px;
   letter-spacing: 0.5px;
 }
 .logo {
-  width: 180px;
-  height: auto;
+  width: auto;
+  height: 70px;
 }
     :root {
       --primary: #0f172a;
@@ -35,10 +62,19 @@
   </style>
 </head>
 <body>
-<header>
-  <img src="logo.png" alt="JAMSEL ENTERPRISE" class="logo">
-  <p class="tagline">Quality Shoes, Bags & Watches You Can Trust</p>
-  <p>Shoes • Bags • Watches</p><p>📞 +254 721 515 749 | 📍 Kenya</p>
+<header>  <div class="header-container">
+    <div class="brand">
+      <img src="logo.png" alt="JAMSEL ENTERPRISE" class="logo">
+      <p class="tagline">Quality Shoes, Bags & Watches You Can Trust</p>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div> 
 </header>
 <nav>
   <a href="index.html">Home</a>
@@ -82,6 +118,7 @@ function buy(name,price){
 </script>
 </body>
 </html>
+
 
 
 
