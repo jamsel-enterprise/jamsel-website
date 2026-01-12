@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <title>About Us | JAMSEL ENTERPRISE</title>
-  <style>header {
+  <style>
+    header {
   background: #0f172a;
   padding: 12px 20px;
 }
@@ -53,6 +54,42 @@ nav a:hover {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+    /* MOBILE RESPONSIVENESS */
+@media (max-width: 768px) {
+
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    margin: 10px;
+    display: inline-block;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .category-grid,
+  .product-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .logo {
+    height: 60px;
+  }
+
+}
+
 </style>
 <header> <div class="header-container">
     <div class="brand">
@@ -88,6 +125,7 @@ nav a:hover {
 </footer>
 </body>
 </html>
+
 
 
 
